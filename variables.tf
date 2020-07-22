@@ -1,12 +1,12 @@
 variable "ddos_plan_name_strings" {
   type = list
-  description = "This should be a list of strings which in conjunction with the seperator make up the resource name"
+  description = "(Required) This should be a list of strings which in conjunction with the seperator make up the resource name"
   default     = null
 }
 
 variable "ddos_plan_name_separator" {
   type = string
-  description = "Used with name_strings to make up the resource name"
+  description = "(Required) Used with name_strings to make up the resource name"
   default     = null
 }
 

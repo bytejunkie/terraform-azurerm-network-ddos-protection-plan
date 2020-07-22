@@ -16,7 +16,7 @@ module "resourcegroup" {
 }
 
 module "ddos_plan" {
-  source = "../"
+  source  = "bytejunkie/network-ddos-protection-plan/azurerm"
 # insert the required variables here
   ddos_plan_name_strings        = var.ddos_plan_name_strings
   ddos_plan_name_separator      = var.ddos_plan_name_separator
